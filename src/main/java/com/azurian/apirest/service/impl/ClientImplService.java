@@ -35,6 +35,7 @@ public class ClientImplService implements IClientService {
                 .lastName(clientDto.getLastName())
                 .email(clientDto.getEmail())
                 .phone(clientDto.getPhone())
+                .address(clientDto.getAddress())
                 .build();
 
         return clientDao.save(client);

@@ -112,3 +112,5 @@ springdoc.swagger-ui.path=/docs.html
 # Documentación de la API:
 
 La documentación de la API está disponible en http://localhost:8092/docs. Puedes explorar los endpoints y conocer más sobre cómo interactuar con la API.
+
+En el repositorio se encuentra un archivo db.sql donde se tiene el script de creación de la base de datos, la tabla y el volcado de datos.
